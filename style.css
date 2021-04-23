@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+
+
+
+.menuLink:hover {
+    color: white;
+}
+
+.imagenn{
+    background: pink;
+    
+    
+}
+
+.principal {
+    border-radius: 20px;
+    width: 80%;
+}
+
+
+.contactanos {
+    background-color: pink;
+    color: white;
+    
+    
+}
+
+.comprar {
+    font-size: 20px;
+}
+
+.mono {
+    border-radius: 20px;
+}
+
+.linkk {
+    color: black;
+}
+
+.linkk:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.redes {
+    font-size: 35px;
+    color: black;
+}
+
+.redes:hover {
+    
+    font-size: 40px;
+}
+
+
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+
+.carta {
+    background-color: red;
+}
+
